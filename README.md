@@ -1,9 +1,10 @@
 # [Coursera Machine Learning MOOC by Andrew Ng](https://www.coursera.org/learn/machine-learning) 
 # Python Programming Assignments
 
-![](machinelearning.jpg)
+### Original Repository
+- [dibgerge/ml-coursera-python-assignments](https://github.com/dibgerge/ml-coursera-python-assignments) - python programming assignments
 
-This repositry contains the python versions of the programming assignments for the [Machine Learning online class](https://www.coursera.org/learn/machine-learning) taught by Professor Andrew Ng. This is perhaps the most popular introductory online machine learning class. In addition to being popular, it is also one of the best Machine learning classes any interested student can take to get started with machine learning. An unfortunate aspect of this class is that the programming assignments are in MATLAB or OCTAVE, probably because this class was made before python became the go-to language in machine learning.
+This repositry contains the python versions of the programming solutions for the [Machine Learning online class](https://www.coursera.org/learn/machine-learning) taught by Professor Andrew Ng. This is perhaps the most popular introductory online machine learning class. In addition to being popular, it is also one of the best Machine learning classes any interested student can take to get started with machine learning. An unfortunate aspect of this class is that the programming assignments are in MATLAB or OCTAVE, probably because this class was made before python became the go-to language in machine learning.
 
 The Python machine learning ecosystem has grown exponentially in the past few years, and is still gaining momentum. I suspect that many students who want to get started with their machine learning journey would like to start it with Python also. It is for those reasons I have decided to re-write all the programming assignments in Python, so students can get acquainted with its ecosystem from the start of their learning journey. 
 
@@ -15,11 +16,11 @@ These assignments work seamlessly with the class and do not require any of the m
 - The `python` assignments can be submitted for grading. They were tested to work perfectly well with the original Coursera grader that is currently used to grade the MATLAB/OCTAVE versions of the assignments. 
 - After each part of a given assignment, the Jupyter Notebook contains a cell which prompts the user for submitting the current part of the assignment for grading.  
 
- ## Online workspace
+ ### Online workspace
  
  You can work on the assignments in an online workspace called [Deepnote](https://www.deepnote.com/). This allows you to play around with the code and access the assignments from your browser. [<img height="22"  src="https://beta.deepnote.com/buttons/launch-in-deepnote.svg">](https://beta.deepnote.com/launch?template=data-science&url=https%3A%2F%2Fgithub.com%2Fdibgerge%2Fml-coursera-python-assignments)
 
-## Downloading the Assignments
+### Downloading the Assignments
 
 To get started, you can start by either downloading a zip file of these assignments by clicking on the `Clone or download` button. If you have `git` installed on your system, you can clone this repository using : 
 
@@ -29,7 +30,7 @@ Each assignment is contained in a separate folder. For example, assignment 1 is 
  - The assignment `jupyter` notebook, which has a `.ipynb` extension. All the code which you need to write will be written within this notebook.
  - A python module `utils.py` which contains some helper functions needed for the assignment. Functions within the `utils` module are called from the python notebook. You do not need to modify or add any code to this file.
 
-## Requirements 
+### Requirements 
 
 These assignments has been tested and developed using the following libraries: 
 
@@ -42,7 +43,7 @@ These assignments has been tested and developed using the following libraries:
     
 We recommend using at least these versions of the required libraries or later. Python 2 is not supported. 
     
-## Python Installation
+### Python Installation
 
 We highly recommend using anaconda for installing python. [Click here](https://www.anaconda.com/download/) to go to Anaconda's download page. Make sure to download Python 3.6 version.
 If you are on a windows machine:
@@ -90,13 +91,13 @@ If you are new to python and to `jupyter` notebooks, no worries! There is a plet
 - [Python introduction based on the class's MATLAB tutorial](https://github.com/mstampfer/Coursera-Stanford-ML-Python/blob/master/Coursera%20Stanford%20ML%20Python%20wiki.ipynb): This is the equivalent of class's MATLAB tutorial, in python.
 
 
-## Caveats and tips
+### Caveats and tips
 
 - In many of the exercises, the regularization parameter $\lambda$ is denoted as the variable name `lambda_`, notice the underscore at the end of the name. This is because `lambda` is a reserved python keyword, and should never be used as a variable name.
 
 -  In `numpy`, the function `dot` is used to perform matrix multiplication. The operation '*' only does element-by-element multiplication (unlike MATLAB). If you are using python version 3.5+, the operator '@' is the new matrix multiplication, and it is equivalent to the `dot` function.
 
-## Acknowledgements
+### Acknowledgements
 
 - I would like to thank professor Andrew Ng and the crew of the Stanford Machine Learning class on Coursera for such an awesome class. 
 
