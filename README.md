@@ -18,7 +18,7 @@ These assignments work seamlessly with the class and do not require any of the m
 
  ### Online workspace
  
- You can work on the assignments in an online workspace called [GitPod](gitpod.io). This allows you to play around with the code and access the assignments from your browser. [Launch in GitPod](https://a8552f70-6cbe-4fe5-b24e-f414bb19ce38.ws-us03.gitpod.io/#/workspace/ml-coursera-python-solutions).
+ You can work on the assignments in an online workspace called [GitPod](gitpod.io). This allows you to play around with the code and access the assignments from your browser. [Launch in GitPod](http://gitpod.io/#github.com/Alyssonmach/ml-coursera-python-solutions).
 
 ### Downloading the Assignments
 
