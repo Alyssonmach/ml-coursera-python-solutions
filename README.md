@@ -18,7 +18,7 @@ These assignments work seamlessly with the class and do not require any of the m
 
  ### Online workspace
  
- You can work on the assignments in an online workspace called [Deepnote](https://www.deepnote.com/). This allows you to play around with the code and access the assignments from your browser. [<img height="22"  src="https://beta.deepnote.com/buttons/launch-in-deepnote.svg">](https://beta.deepnote.com/launch?template=data-science&url=https%3A%2F%2Fgithub.com%2Fdibgerge%2Fml-coursera-python-assignments)
+ You can work on the assignments in an online workspace called [GitPod](gitpod.io). This allows you to play around with the code and access the assignments from your browser. [Launch in GitPod](https://a8552f70-6cbe-4fe5-b24e-f414bb19ce38.ws-us03.gitpod.io/#/workspace/ml-coursera-python-solutions)
 
 ### Downloading the Assignments
 
