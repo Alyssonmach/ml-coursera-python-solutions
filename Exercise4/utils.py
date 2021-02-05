@@ -178,6 +178,12 @@ def sigmoid(z):
     """
     return 1.0 / (1.0 + np.exp(-z))
 
+def sigmoidGradient(z):
+    '''
+    Computes the sigmoid gradient of z.
+    '''
+    return np.multiply(sigmoid(z), 1 - sigmoid(z))
+
 
 class Grader(SubmissionBase):
     X = np.reshape(3 * np.sin(np.arange(1, 31)), (3, 10), order='F')
